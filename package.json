@@ -1,0 +1,25 @@
+{
+  "name": "Test0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangyuan0217/Test0-uniapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangyuan0217/Test0-uniapp/issues"
+  },
+  "homepage": "https://github.com/wangyuan0217/Test0-uniapp#readme",
+  "dependencies": {
+    "@dcloudio/uni-ui": "^1.4.6",
+    "uni-ui": "^1.0.0",
+    "uview-ui": "^1.8.4"
+  }
+}
