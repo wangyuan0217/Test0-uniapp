@@ -35,9 +35,7 @@
 		</view>
 
 		<view class="bottom">
-			<view class="blank"></view>
-
-			<text>热啊该人为噶尔</text>
+			<text class="privateNote">隐私协议</text>
 		</view>
 
 	</view>
@@ -73,23 +71,30 @@
 
 <style lang="scss" scoped>
 	page {
+		height: 100%;
 		background-color: #FFFFFF;
 	}
 
 	.parent {
-		background-color: #000000;
+		height: 100%;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		justify-content: space-between;
 
 		.content {
-			flex: 1;
 			margin-top: 150rpx;
-			background-color: #05DFC7;
 		}
 
 		.bottom {
-			background-color: #ff557f;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.privateNote {
+				margin-bottom: 40rpx;
+				font-size: 30rpx;
+				color: #333333;
+			}
 		}
 	}
 
